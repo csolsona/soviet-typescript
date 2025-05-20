@@ -1,0 +1,17 @@
+{
+	"name": "soviet-typescript",
+	"version": "0.1.0",
+	"description": "A TypeScript script to change TypeScript types",
+	"module": "soviet.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"ts-morph": "^25.0.1"
+	}
+}
